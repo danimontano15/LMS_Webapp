@@ -1,0 +1,40 @@
+body {
+    background-color: lightblue;
+}
+
+.hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #333;
+}
+
+#nav-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+#nav-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#nav-menu li {
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    #nav-menu {
+        display: none;
+    }
+
+    #nav-menu.show {
+        display: block;
+    }
+}
