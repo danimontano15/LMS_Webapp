@@ -1,13 +1,6 @@
 <?php
-
-require_once 'controller/UserControl.php';
-require_once 'controller/CourseControl.php';
-
-use App\Controller\UserControl;
-use App\Controller\CourseControl;
-
-$controller = new UserControl();
+require_once 'controller/DashboardController.php';
+use App\Controller\DashboardController;
+$controller = new DashboardController();
 $controller->index();
-
-$courseController = new CourseControl();
-$courseController->index();
+?>

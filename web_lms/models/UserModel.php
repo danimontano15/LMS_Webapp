@@ -3,11 +3,10 @@
 namespace App\Models;
 
 class UserModel {
-    public function getUserData() {
-        return [
-            'name' => 'Maloi Ricalde',
-            'role' => 'Resident'
-        ];
+    public $name;
+    public $role;
+    public function __construct($name, $role) {
+        $this->name = $name;
+        $this->role = $role;
     }
 }
-?>
