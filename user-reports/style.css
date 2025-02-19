@@ -9,8 +9,6 @@ body {
     display: flex;
     height: 100vh;
 }
-
-/* Sidebar */
 .sidebar {
     width: 300px;
     background-color: #2a4a73;
@@ -64,8 +62,6 @@ body {
 .sidebar nav ul li a.active, .sidebar nav ul li a:hover {
     background-color: #1e3a5f;
 }
-
-/* Main Content */
 .main-content {
     flex: 1;
     padding: 20px;
