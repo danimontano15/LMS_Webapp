@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e3a5f;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #2a4a73;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.sidebar .logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.sidebar .profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.sidebar .profile .name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.sidebar .profile .role {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.sidebar nav ul li {
+    margin: 15px 0;
+}
+
+.sidebar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.sidebar nav ul li a.active, .sidebar nav ul li a:hover {
+    background-color: #0066CC;
+}
+
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.main-content header {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Ensures header stays at the top */
+    gap: 20px; /* Adds spacing between header and the content */
+
+}
+
+.main-content header h1 {
+    font-size: 20px;
+}
+
+.logout-btn {
+    background-color: #2a4a73;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+}
+
+.logout-btn:hover {
+    background-color: #0066CC;
+}
+
+.report-form {
+    background-color: #2a4a73;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 180px;
+}
+
+.report-form textarea {
+    width: 99%;
+    height: 150px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    resize: none;
+}
+
+.report-form .attachments {
+    display: flex;
+    gap: 10px;
+}
+
+.report-form .attachments button {
+    background-color: #1e3a5f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.report-form .attachments button:hover {
+    background-color: #0066CC;
+}
+
+.send-btn {
+    background-color: #1e3a5f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.send-btn:hover {
+    background-color: #0066CC;
+}
