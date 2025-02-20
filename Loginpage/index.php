@@ -9,6 +9,7 @@
 </head>
 <body>
     <div class="login-container">
+    <img src="HERE FINAL.png" alt="" class="clas">
         <h1>Community Care Solution</h1>
         <p class="tagline">Empowering Communities, Connecting Lives.</p>
         <h2>GET STARTED!</h2>
