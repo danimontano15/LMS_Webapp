@@ -26,7 +26,7 @@
                     <li><a href="#">Contact Officials</a></li>
                 </ul>
             </nav>
-        </div>
+        </div>  
 
         <div class="main-content">
             <header>
