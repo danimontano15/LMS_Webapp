@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #204567;
+    background-color: #1E3A5F;
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -9,7 +9,7 @@ body {
 }
 
 .login-container {
-    background-color: #1b486b;
+    background-color: #2A4A73;
     border: 2px solid white;
     width: 650px;
     padding: 25px;
