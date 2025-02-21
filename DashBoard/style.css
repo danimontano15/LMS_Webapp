@@ -9,7 +9,7 @@ html, body {
 body {
     display: flex;
     min-height: 100vh; 
-    color: white
+    color: white;
 }
 
 .sidebar {
