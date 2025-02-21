@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #1e3a5f;
+    background-color: #1E3A5F;
     color: #fff;
 }
 
@@ -12,15 +12,16 @@ body {
 
 .sidebar {
     width: 250px;
-    background: #204567;
+    background: #2A4A73;
     color: white;
-    padding: 30px;
+    padding: 30px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-right: 2px solid white;
-    flex-shrink: 0; 
+    flex-shrink: 0;
     height: 100vh; 
+    box-sizing: border-box;
 }
 
 .sidebar .logo img {
@@ -40,6 +41,7 @@ body {
 .sidebar .profile .name {
     font-weight: bold;
     font-size: 18px;
+    margin-bottom: 5px;
 }
 
 .sidebar .profile .role {
@@ -50,6 +52,7 @@ body {
 .sidebar nav ul {
     list-style: none;
     padding: 0;
+    margin-top: 20px;
     width: 100%;
 }
 
@@ -66,31 +69,28 @@ body {
     transition: background-color 0.3s;
 }
 
-.sidebar nav ul li a.active, .sidebar nav ul li a:hover {
+.sidebar nav ul li a.active,
+.sidebar nav ul li a:hover {
     background-color: #0066CC;
 }
-
 
 .main-content {
     flex: 1;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    justify-content: center;
 }
 
 .main-content header {
-    flex: 1;
-    padding: 20px;
     display: flex;
-    justify-content: space-between; /* Ensures header stays at the top */
-    gap: 20px; /* Adds spacing between header and the content */
-
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .main-content header h1 {
     font-size: 20px;
+    margin: 0;
 }
 
 .logout-btn {
@@ -102,6 +102,7 @@ body {
     cursor: pointer;
     width: 100px;
     height: 40px;
+    transition: background-color 0.3s;
 }
 
 .logout-btn:hover {
@@ -115,16 +116,18 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    margin-bottom: 180px;
+    margin-bottom: 20px;
 }
 
 .report-form textarea {
-    width: 99%;
+    width: 100%;
     height: 150px;
     border: none;
     border-radius: 10px;
     padding: 10px;
     resize: none;
+    font-size: 14px;
+    box-sizing: border-box;
 }
 
 .report-form .attachments {
@@ -139,6 +142,7 @@ body {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .report-form .attachments button:hover {
@@ -153,6 +157,7 @@ body {
     border-radius: 5px;
     align-self: flex-end;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .send-btn:hover {
