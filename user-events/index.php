@@ -29,7 +29,7 @@
         </div>
         <div class="main-content">
             <header>
-                <h1>Home</h1>
+                <h1>Events</h1>
                 <button class="logout-btn">Log out</button>
             </header>
             
