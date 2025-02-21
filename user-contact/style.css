@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1E3A5F;
+    color: white;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background: #2A4A73;
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 2px solid white;
+    flex-shrink: 0;
+    height: 100vh; 
+}
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+} 
+.logo img {
+    text-align: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile img {
+    border-radius: 20%;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+
+.profile-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.profile-role {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.menu {
+    width: 100%;
+}
+
+.menu-item {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.menu-item.active {
+    background-color: #0066CC
+}
+
+.menu-item:hover {
+    background-color: #0066CC;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.content-header h1 {
+    margin: 0;
+}
+
+#logout-button {
+    background-color: #2A4A73;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#logout-button:hover {
+    background-color: #0066CC;
+}
+.contact-section {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 16px;
+}
+
+.contact-form {
+    background-color: #2A4A73;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.contact-form p {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.contact-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.send-btn {
+    background-color: #1E3A5F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.send-btn:hover {
+    background-color: #0066cc;
+}
