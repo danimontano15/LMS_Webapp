@@ -19,7 +19,7 @@
             </div>
             <nav class="menu">
                 <a href="#" class="menu-item active">Dashboard</a>
-                <a href="#" class="menu-item">Send a Report</a>
+                <a href="#" class="menu-item">Reports</a>
                 <a href="#" class="menu-item">Events</a>
                 <a href="#" class="menu-item">Updates</a>
                 <a href="#" class="menu-item">Contact Officials</a>
