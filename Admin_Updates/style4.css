@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1E3A5F;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background: #2A4A73;
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 2px solid white;
+    flex-shrink: 0; 
+    height: 100vh;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+} 
+.logo img {
+    text-align: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile img {
+    border-radius: 20%;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.profile-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.profile-role {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.menu {
+    width: 100%;
+}
+
+.menu-item {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.menu-item.active {
+    background-color: #0066CC;
+}
+
+.menu-item:hover {
+    background-color: #0066CC;
+}
+
+.content {
+    flex: 1;
+    padding: 5px;
+}
+
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+#logout-button {
+    background-color: #2A4A73;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#logout-button:hover {
+    background-color: #0066CC;
+
+}
+
+.post-box {
+    background: #2A4A73;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100%;
+    height: 60px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.post-btn {
+    background: #1E3A5F;
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+.post-btn:hover {
+    background-color: #0066CC;
+}    
+
+.posted-updates {
+    margin-top: 20px;
+}
+.outset {
+    border-bottom: 2px solid white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.update {
+    display: flex;
+    align-items: center;
+    background: #2A4A73;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.update img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.update p {
+    flex: 1;
+}
+
+.update span {
+    font-size: 12px;
+}
